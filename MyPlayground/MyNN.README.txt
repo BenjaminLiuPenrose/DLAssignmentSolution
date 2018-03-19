@@ -1,3 +1,26 @@
+==================================Modules=========================================
+'''Init'''
+Implementations/initialize_parameters_zeros.py
+Implementations/initialize_parameters_random.py
+Implementations/initialize_parameters_he.py
+'''Forward prop''' input X; ouput A,Z
+Implementations/linear_forward.py
+Implementations/linear_activation_forward.py #with dropout
+Implementations/L_model_forward.py
+'''Compute cost''' input AL,Y;output cost
+Implementations/compute_cost.py 
+Implementations/compute_cost_with_regularization.py
+'''Backward prop''' input ;output grads
+Implementations/linear_backward.py
+Implementations/linear_backward_with_regularization.py
+Implementations/linear_activation_backward.py 
+Implementations/L_model_backward.py
+'''Update params''' input params; output params
+Implementations/update_parameters.py
+Implementations/random_mini_batch.py
+Implementations/update_parameters_with_momentum.py 
+Implementations/update_parameters_with_adam.py 
+
 Implementations/initialize_parameters_zeros.py
 Implementations/initialize_parameters_random.py
 Implementations/initialize_parameters_he.py
@@ -44,7 +67,7 @@ Y,
 output:
 cost,
 '
-Implementations/compute_cost_with_regularization
+Implementations/compute_cost_with_regularization.py
 '
 input:
 AL,
