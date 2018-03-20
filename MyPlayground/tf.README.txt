@@ -1,3 +1,49 @@
+====================================================================================================
+tf.logging
+.log()
+.debug()
+.info()
+.warn()
+.warning()
+.error()
+.fatal()
+.flush()
+
+====================================================================================================
+tf.metrics
+.accuracy()
+.auc()
+.average_precision_at_k()
+.false_negatives()
+.false_negatives_at_thresholds()
+.false_positives()
+.false_positives_at_thresholds()
+.true_negatives()
+.true_negatives_at_thresholds()
+.true_positives()
+.true_positives_at_thresholds()
+.mean()
+.mean_absolute_error()
+.mean_cosine_distance()
+.mean_iou()
+.mean_relative_error()
+.mean_squared_error()
+.percentage_below()
+.precision()
+.precision_at_k()
+.precision_at_thresholds()
+.precision_at_top_k()
+.recall()
+.recall_at_k()
+.recall_at_thresholds()
+.recall_at_top_k()
+.root_mean_squared_error()
+
+
+====================================================================================================
+tf.
+'''math operations'''
+'''math functions'''
 tf.reset_default_graph()
 ops.reset_default_graph()                         # to be able to rerun the model without overwriting tf variables
 tf.set_random_seed() 
@@ -19,6 +65,13 @@ tf.zeros_initializer()
 tf.reduce_mean()
 tf.equal() #True/False []
 tf.argmax()
+tf.divide()
+tf.zeros()
+tf.eye()
+tf.pad()
+tf.abs();.acos();.acosh();.asin();.asinh();atan();.atan2();.atanh();.exp();.log();.sign();.sqrt()
+tf.argmin()
+tf.svd()
 
 flattened.reshape(X_orig.shape[0], -1).T
 np.squeeze()
@@ -30,12 +83,117 @@ tf.Session()
 tf.train
 .AdamOptimizer(learning_rate = learning_rate).minimize(cost)
 
+========================================================================================================
 tf.nn
 .sigmoid_cross_entropy_with_logits(logits = , labels = )
 .softmax_cross_entropy_with_logits(logits = , labels = )
 .relu() 
+.atrous_conv2d()
+.atrous_conv2d_transpose()
+.avg_pool()
+.avg_pool3d()
+.batch_normalization()
+.batch_norm_with_global_normalization()
+.bias_add()
+.conv1d()
+.conv2d()
+.conv2d_transpose()
+.conv3d()
+.conv3d_transpose()
+.crelu()
+.dropout()
+.dynamic_rnn()
+.elu()
+.dilation2d()
+.erosion2d()
+.leaky_relu()
+.l2_loss()
+.l2_normalize()
+.log_possion_loss
+.log_softmax()
+.max_pool
+.max_pool3d()
+.relu6()
+.selu()
+.softmax()
+.static_rnn()
+.rnn_cell()
+
+========================================================================================================
+tf.layers
+# all with lowercase _ has the same function
+.AveragePooling1D()
+.AveragePooling2D()
+.AveragePooling3D()
+.BatchNormalization()
+.Conv1D()
+.Conv2D()
+.Conv2DTranspose()
+.Conv3D()
+.Conv3DTranspose()
+.Dense()
+.Dropout()
+.Flatten()
+.Input()
+.MaxPooling1D()
+.MaxPooling2D()
+.MaxPooling3D()
+.SeperableConv1D()
+.SeperableConv2D()
 
 
+========================================================================================================
 tf.contrib
 .layers.xavier_initializer(seed = )
+
+========================================================================================================
+tf.linalg
+
+========================================================================================================
+tf.losses
+.mean_squared_error()
+.sigmoid_cross_entropy()
+.softmax_corss_entropy()
+.sparse_softmax_corss_entropy()
+.mean_pairwise_squared_error()
+.log_loss()
+.hinge_loss()
+.huber_loss()
+.cosine_distance()
+.absolute_difference()
+
+
+========================================================================================================
+tf.app
+
+========================================================================================================
+tf.bitwise
+.bitwise_and()
+.bitwise_or()
+.bitwise_xor()
+.invert()
+.left_shift()
+.right_shift()
+
+========================================================================================================
+tf.distributions
+.Bernoulli()
+.Beta()
+.Categorical()
+.Dirichlet()
+.DirichletMultinomial()
+.Exponential()
+.Gamma()
+.Laplace()
+.Multinomial()
+.Normal()
+.StudentT()
+.Uniform()
+
+========================================================================================================
+tf.keras
+
+
+========================================================================================================
+np
 
