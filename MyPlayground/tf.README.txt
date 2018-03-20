@@ -80,8 +80,18 @@ tf.Session()
 # sess.run(init)
 # parameters = sess.run(parameters) #save parameters
 .close()
+
+========================================================================================================
 tf.train
 .AdamOptimizer(learning_rate = learning_rate).minimize(cost)
+.AdadeltaOptimizer().minimize()
+.AdagradDAOptimizer().minimize()
+.AdagradOptimizer().minimize()
+.AdamOptimizer().minimize()
+.FtrlOptimizer().minimize()
+.GradientDescentOptimizer().minimize()
+.MomentumOptimizer().minimize()
+.RMSPropOptimizer().minimize()
 
 ========================================================================================================
 tf.nn
@@ -174,6 +184,13 @@ tf.bitwise
 .invert()
 .left_shift()
 .right_shift()
+
+========================================================================================================
+tf.sets
+.set_difference()
+.set_intersection()
+.set_size()
+.set_union()
 
 ========================================================================================================
 tf.distributions
