@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python
 '''
 Student name: Beier (Benjamin) Liu
-Date: 
+Date:
 
 Remark:
 Python 2.7 is recommended
@@ -12,7 +12,7 @@ Using cmd line py -2.7 -m install [package_name]
 import os, time, logging
 import copy, math
 import functools, itertools
-import numpy as np 
+import numpy as np
 from Implementations.initialize_parameters import *
 from Implementations.L_model_forward import *
 from Implementations.L_model_backward import *
@@ -46,7 +46,7 @@ def main():
 	b -- bias vector, numpy array of shape (size of the current layer, 1)
 
 	Returns:
-	Z -- the input of the activation function, also called pre-activation parameter 
+	Z -- the input of the activation function, also called pre-activation parameter
 	cache -- a python dictionary containing "A", "W" and "b" ; stored for computing the backward pass efficiently
 	=============================================================================================='''
 
